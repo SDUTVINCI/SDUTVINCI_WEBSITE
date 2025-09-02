@@ -16,7 +16,7 @@ nav:
   include button.html
   type="email"
   text="sdutvincirobot@foxmail.com"
-  link="sdutvincirobot@foxmail.com"s
+  link="sdutvincirobot@foxmail.com"
 %}
 
 {%
