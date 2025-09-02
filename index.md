@@ -25,6 +25,12 @@
   icon="fa-brands fa-weixin"
   link="https://mp.weixin.qq.com/s/AAPWX2zOhJjA-s2MA-g2Ew"
 %}
+{% include button.html 
+   type="docs" 
+   text="2025迎新QQ群"
+   icon="fa-brands fa-qq" 
+   link="https://qm.qq.com/q/heOyGXc35e"
+%}
 {% include section.html %}
 
 ## 高光时刻
@@ -114,7 +120,7 @@
 
 {% capture text %}
 
-我们活跃于各种社会活动，积极展现狼牙风采。
+我们活跃于各种社会活动，积极展现芬奇风采。
 
 {%
   include button.html
