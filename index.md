@@ -112,7 +112,7 @@
 
 {%
   include feature.html
-  image="images/background.jpg"
+  image="images/background_footer.png"
   link="team"
   title="我们的成员"
   text=text
