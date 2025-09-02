@@ -9,23 +9,23 @@ nav:
 
 狼牙战队欢迎所有热爱机器人的同学加入！
 
-湖北省武汉市洪山区珞喻路 1037 号
-华中科技大学智能互联网湖北省重点实验室
+山东省淄博市张店区新村西路 266 号
+山东理工大学智能机器人创新实践基地
 
 {%
   include button.html
   type="email"
-  text="hustrobomaster@163.com"
-  link="hustrobomaster@163.com"
+  text="sdutvincirobot@foxmail.com"
+  link="sdutvincirobot@foxmail.com"s
 %}
 
 {%
   include button.html
   type="address"
   tooltip="我们实验室的地址"
-  link="https://surl.amap.com/1vpaONXCHaR5"
+  link="https://www.amap.com/place/B0FFHY7KRG"
 %}
 
 {% include section.html %}
 
-企业赞助或合作事务洽谈，请联系微信：bao1037rm。
+企业赞助或合作事务洽谈，请联系微信：wxid_sse3f95121kd22。
