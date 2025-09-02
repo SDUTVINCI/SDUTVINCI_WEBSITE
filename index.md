@@ -62,7 +62,7 @@
 
 {%
   include feature.html
-  image="images/cheer.jpg"
+  image="images/cheer.png"
   link="research"
   title="我们的成果"
   text=text
@@ -85,7 +85,7 @@
 
 {%
   include feature.html
-  image="images/cooporate.jpeg"
+  image="images/cooporate.png"
   link="projects"
   title="我们的项目"
   flip=true
@@ -135,7 +135,7 @@
 
 {%
   include feature.html
-  image="images/news.jpeg"
+  image="images/news.png"
   link="news"
   title="我们的新闻"
   flip=true
