@@ -31,6 +31,12 @@
    icon="fa-brands fa-qq" 
    link="https://qm.qq.com/q/heOyGXc35e"
 %}
+{% include button.html 
+   type="docs" 
+   text="25新队员申请"
+   icon="fa-brands fa-plus-square" 
+   link="https://docs.qq.com/form/page/DTk9Ha0hsTHpwa0FL"
+%}
 {% include section.html %}
 
 ## 高光时刻
