@@ -5,7 +5,7 @@ nav:
   tooltip: 关于我们
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}24 赛季团队成员
+# {% include icon.html icon="fa-solid fa-users" %}25 赛季团队成员
 {% include search-box.html %}
 {% include search-info.html %}
 历史成员请参考[历届成员](/team/history)。
@@ -17,7 +17,7 @@ nav:
 {% include list_portrait.html data="members" component="portrait" filters="role: 指导老师" %}
 
 ## {% include icon.html icon="fa-solid fa-users" %}团队负责人
-{% include list_portrait.html data="members" component="portrait" filters="type: 24赛季团队负责人, time: 24 " %}
+{% include list_portrait.html data="members" component="portrait" filters="type: 25赛季团队负责人, time: 24 " %}
 
 ## {% include icon.html icon="fa-solid fa-users" %}机械组
   
