@@ -23,12 +23,14 @@ nav:
   
 {% include list_portrait.html data="members" component="portrait" filters="role: 机械组, time: 24" style="small" %}
 
+## {% include icon.html icon="fa-solid fa-users" %}控制组
+
+{% include list_portrait.html data="members" component="portrait" filters="role: 控制组, time: 24" style="small" %}
+
 ## {% include icon.html icon="fa-solid fa-users" %}电路组
 
 {% include list_portrait.html data="members" component="portrait" filters="role: 电路组, time: 24" style="small" %}
-## {% include icon.html icon="fa-solid fa-users" %}嵌软组
 
-{% include list_portrait.html data="members" component="portrait" filters="role: 嵌软组, time: 24" style="small" %}
 ## {% include icon.html icon="fa-solid fa-users" %}算法组
 
 {% include list_portrait.html data="members" component="portrait" filters="role: 算法组, time: 24" style="small" %}
