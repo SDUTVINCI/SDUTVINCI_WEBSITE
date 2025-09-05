@@ -91,7 +91,7 @@
 
 {%
   include feature.html
-  image="images/cooporate.png"
+  image="images/cooporate.jpg"
   link="projects"
   title="我们的项目"
   flip=true
