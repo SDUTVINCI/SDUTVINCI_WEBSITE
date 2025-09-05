@@ -38,9 +38,9 @@ nav:
 
 {% include list_portrait.html data="members" component="portrait" filters="role: 运营组, time: 25" style="small" %}
 
-## {% include icon.html icon="fa-solid fa-users" %}梯队
+## {% include icon.html icon="fa-solid fa-users" %}顾问组
 
-{% include list_portrait.html data="members" component="portrait" filters="echelon: 25" style="tiny" %}
+{% include list_portrait.html data="members" component="portrait" filters="echelon: 25" style="small" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
