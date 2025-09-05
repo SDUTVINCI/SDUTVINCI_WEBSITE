@@ -33,8 +33,8 @@
 %}
 {% include button.html 
    type="docs" 
-   text="25新队员申请"
-   icon="fa-brands fa-plus-square" 
+   text="加入我们-25级新队员申请"
+   icon="fa-solid fa-user-plus"
    link="https://docs.qq.com/form/page/DTk9Ha0hsTHpwa0FL"
 %}
 {% include section.html %}
@@ -46,7 +46,7 @@
 <ul>
   <li>16年全国大学生机器人大赛Robocon省赛一等奖，国赛二等奖；</li>
   <li>17年全国大学生机器人大赛Robocon国赛三等奖；全国大学生机器人大赛RoboMaster国赛三等奖；</li>
-  <li>18年全国大学生机器人大赛Robocon省赛一等奖，国赛一等奖，同年获感动山理；</li>
+  <li>18年全国大学生机器人大赛Robocon省赛一等奖，国赛一等奖，同年获感动校园；</li>
   <li>19年全国大学生机器人大赛Robocon省赛一等奖，国赛二等奖；</li>
   <li>20年全国大学生机器人大赛Robocon省赛一等奖，国赛二等奖；</li>
   <li>21年全国大学生机器人大赛Robocon省赛一等奖，国赛二等奖；</li>
