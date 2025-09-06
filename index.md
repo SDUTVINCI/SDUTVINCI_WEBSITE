@@ -60,7 +60,7 @@
 
 {%
   include feature.html
-  image="images/cooporate.jpg"
+  image="images/joinus.jpg"
   link="recruitment"
   title="加入我们"
   flip=true
