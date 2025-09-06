@@ -1,17 +1,20 @@
 <div class="post-info">
-  {% if include.author %}
-    {% assign member = site.members
-      | where_exp: "member", "member.slug == include.author"
-      | first
-    %}
-    {% if member %}
-      {% include portrait.html lookup=include.author style="tiny" %}
-    {% else %}
-      <span data-tooltip="Author">
-        {% include icon.html icon="fa-solid fa-feather-pointed" %}
-        <span>{{ include.author }}</span>
-      </span>
-    {% endif %}
+  {% if page.author %}
+    {% for auth in page.author %}
+      {% assign member = site.members
+        | where_exp: "member", "member.slug == auth"
+        | first
+      %}
+      {% if member %}
+        {% include portrait.html lookup=auth style="tiny" %}
+      {% else %}
+        <span data-tooltip="Author">
+          {% include icon.html icon="fa-solid fa-feather-pointed" %}
+          <span>{{ auth }}</span>
+        </span>
+      {% endif %}
+      {% if forloop.last == false %}<span>, </span>{% endif %}
+    {% endfor %}
   {% endif %}
 
   {% assign published = include.published | date: "%Y年%m月%d日" %}
