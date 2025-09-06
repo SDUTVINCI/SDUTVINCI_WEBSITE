@@ -33,9 +33,9 @@
 %}
 {% include button.html 
    type="docs" 
-   text="加入我们-25级新队员申请"
+   text="加入我们-25级新队员招募"
    icon="fa-solid fa-user-plus"
-   link="https://docs.qq.com/form/page/DTk9Ha0hsTHpwa0FL"
+   link="recruitment"
 %}
 {% include section.html %}
 
