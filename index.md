@@ -39,6 +39,36 @@
 %}
 {% include section.html %}
 
+## 纳新专区
+
+{% capture text %}
+
+如果你热爱机器人、编程、机械设计，或者只是想和一群志同道合的小伙伴一起做点有趣的事，Vinci机器人队欢迎你！
+在这里，你能接触到前沿的机器人技术，参与各类赛事与项目，并与优秀的伙伴们共同成长。
+不论你是新手还是有经验的开发者，都能在这里找到属于自己的位置。
+
+{%
+  include button.html
+  link="recruitment"
+  text="点击了解更多资讯"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/cooporate.jpg"
+  link="recruitment"
+  title="加入我们"
+  flip=true
+  style="bare"
+  text=text
+%}
+
+
 ## 高光时刻
 
 {% capture text %}

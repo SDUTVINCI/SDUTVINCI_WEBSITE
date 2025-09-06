@@ -1,7 +1,7 @@
 ---
 title: 联系
 nav:
-  order: 6
+  order: 7
   tooltip: 邮件、电话、地址
 ---
 
