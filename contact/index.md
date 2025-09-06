@@ -28,4 +28,4 @@ nav:
 
 {% include section.html %}
 
-企业赞助或合作事务洽谈，请联系微信：wxid_sse3f95121kd22。
+企业赞助或合作事务洽谈，请联系微信：sdut_vincirobot。
