@@ -2,6 +2,7 @@
 title: STM32-FreeRTOS教程
 author: 
   - 董佳辉
+  - 苏利昊
   - 房梓豪
 tags:
   - 控制组
