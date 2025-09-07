@@ -8,7 +8,13 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %}25 赛季团队成员
 {% include search-box.html %}
 {% include search-info.html %}
-历史成员请参考[历届成员](/team/history)。
+
+{% include section.html %}
+
+<div style="font-size:1.2em; margin:10px 0;">
+  {% include icon.html icon="fa-solid fa-user-clock" %} 
+  <strong>历史成员请参考 <a href="/team/history">历届成员</a></strong>
+</div>
 
 {% include section.html %}
 
